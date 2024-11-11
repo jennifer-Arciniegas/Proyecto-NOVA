@@ -395,3 +395,17 @@ body {
 .dest-data {
     font-weight: 900;
 }
+/*------------------------------------*/
+/*            TECHNOLOGY             */
+/*------------------------------------*/
+.technology{
+    background-image: url(/assets/technology/background-technology-desktop.jpg);
+}
+
+.lineamenu{
+    border: 1px solid lightgray;
+    width: 41.5vw;
+    height: 2px;
+    position: relative;
+    z-index: 5;
+}
