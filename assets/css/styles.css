@@ -203,3 +203,18 @@ body {
     color: hsl( var(--clr-white) );
     background-color: hsl( var(--clr-dark) );
 }
+*{
+    background-image: url(/assets/destination/background-destination-desktop.jpg);
+}
+.linea-menu{
+    width: 45vw;
+    color: white;
+    background-color: lightgray;
+    border: 2px solid lightgray;
+    z-index: 5;
+}
+
+.colornav{
+    background-color: #2a3d66;
+    z-index: 1;
+}
