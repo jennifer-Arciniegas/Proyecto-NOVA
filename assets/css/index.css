@@ -304,11 +304,29 @@ body {
     line-height: 1.5;
     font-size: var(--fs-400);
     color: hsl(var(--clr-white));
+    background-size: cover;
+    background-position: bottom center;
 }
 
 .home {
     background-image: url(/assets/home/background-home-desktop.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
+
+.home {
+    background-image: url(./assets/home/background-home-mobile.jpg);
+}
+
+@media (min-width: 35rem) {
+    .home {
+        background-position: center center;
+        background-image: url(./assets/home/background-home-tablet.jpg);
+    }
+}
+
+@media (min-width: 45rem) {
+    .home {
+        background-image: url(./assets/home/background-home-desktop.jpg);
+    }
+}
