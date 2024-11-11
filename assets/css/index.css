@@ -419,6 +419,7 @@ a {
 
     .text-flex {
         padding: 0 15%;
+        min-width: 350px;
     }
 } 
 
