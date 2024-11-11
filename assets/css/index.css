@@ -9,6 +9,10 @@
     text-decoration: none;
 }
 
+* {
+    overflow: hidden;
+}
+
 *,
 *::before,
 *::after {
@@ -81,7 +85,7 @@ figcaption {
     --fs-700: 1.5rem;
     --fs-600: 1rem;
     --fs-500: 1.2rem;
-    --fs-400: 0.93rem;
+    --fs-400: 0.8rem;
     --fs-300: 1rem;
     --fs-200: 0.875rem;
 
@@ -119,24 +123,6 @@ figcaption {
 
 .is-grid {
     gap: var(--gap, 1rem);
-}
-
-.container {
-    padding-inline: 2em;
-    margin-inline: auto;
-    max-width: 80rem; /*Use rem*/
-}
-
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
 }
 
 /* COLORS */
@@ -429,6 +415,10 @@ a {
 
     .navbar-item .number {
         font-weight: 900;
+    }
+
+    .text-flex {
+        padding: 0 15%;
     }
 } 
 
