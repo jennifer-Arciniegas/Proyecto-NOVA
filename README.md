@@ -1,11 +1,11 @@
 # Proyecto-NOVA
 # Equipo:
-  Scrum Master:
-    Jennifer Arciniegas.
-  Equipo Scrum:
-    Anderson Galvis.
-    Juan Ramírez.
-    Daniel Pereira.
+ - Scrum Master:
+    -Jennifer Arciniegas.
+  -Equipo Scrum:
+   - Anderson Galvis.
+   - Juan Ramírez.
+   - Daniel Pereira.
     
 # IDEAS PROPUESTAS.
 - Ropa Urbana: Descartada debido a falta de pontecial en el mercado.
