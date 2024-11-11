@@ -8,10 +8,10 @@
     Daniel Pereira.
     
 # IDEAS PROPUESTAS.
-Ropa Urbana: Descartada debido a falta de pontecial en el mercado.
-Pagina Sex-shop: Descartada por políticas internas de Campuslands.
-Pet-shop: Descartada por falta de potencial en el mercado.
-Marketplace accesorios gamer: Descartada por el cliente el 10 de noviembre a las 12:00 P.M. 
+- Ropa Urbana: Descartada debido a falta de pontecial en el mercado.
+- Pagina  Sex-shop: Descartada por políticas internas de Campuslands.
+- Pet-shop: Descartada por falta de potencial en el mercado.
+- Marketplace accesorios gamer: Descartada por el cliente el 10 de noviembre a las 12:00 P.M. 
 
 # Propuesta NOVA.
 ## Nicho:
@@ -30,5 +30,27 @@ Desarrollar un sitio web interactivo y responsivo para la agencia NOVA, que pres
 3. Asegurar que el sitio web sea completamente responsivo
 
 # Tiempos estimados. 
+## Domingo 10 Nov 2024
+4:00 AM - 5:00 PM: Planificación y definición de los requisitos finales.
+8:00 PM: Reunion Diaria.
+8:30 AM - 9:00 PM: Desarrollo de la estructura básica del sitio (HTML y CSS).
+10:00 PM: Implementación de contenido básico mediante la asignacion de tareas.
+
+## lunes 11 NOV 2024
+01:00 PM - 01:15 PM: Reunion Diaria.
+9:00 PM - 10:00 PM: Pruebas finales de funcionalidad, accesibilidad y rendimiento.
+11:00 PM: Ajustes finales y revisión de los detalles con el equipo.
+
+## Martes 12 NOV 2024
+02: 00 PM - 02: 15 PM: Reunion Diaria.
+02:30 PM: Preparación para la entrega del proyecto (documentación, empaquetado, revisión de última hora).
+
+# Resultados esperados.
+Teniendo en cuenta que se trata de una agencia para viajes espaciales, los resultados esperados son:
+1. Desarrollo de un sitio web funcional y atractivo.
+2. Sitio web responsivo.
+3. Navegación sencilla y accesible.
+4. Presentación clara de la información. 
+
 
 
