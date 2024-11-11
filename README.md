@@ -2,7 +2,7 @@
 # Equipo:
  - Scrum Master:
     -Jennifer Arciniegas.
-  -Equipo Scrum:
+  - Equipo Scrum:
    - Anderson Galvis.
    - Juan Ramírez.
    - Daniel Pereira.
