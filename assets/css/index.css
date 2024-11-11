@@ -53,22 +53,6 @@ figcaption {
     text-wrap: pretty;
 }
 
-input {
-    outline: 3px solid hsl(203, 30%, 26%);
-}
-
-input:not(:placeholder-shown):valid {
-    outline-color: var(--color-success);
-}
-
-input:not(:placeholder-shown):invalid {
-    outline-color: var(--color-error);
-}
-
-input:focus:invalid {
-    outline-color: var(--color-warning);
-}
-
 @media (prefers-reduced-motion: reduce) {
     *,
     *::before,
@@ -159,11 +143,6 @@ input:focus:invalid {
     white-space: nowrap;
     border: 0;
 }
-
-.flow > *:where(:not(:first-child)) { /* This selects all direct children except the first one */
-    margin-top: var(--flow-space, 1rem);
-}
-
 
 /* COLORS */
 
@@ -352,7 +331,7 @@ body {
     .large-button {
       margin-top: 3rem;
     }
-  }
+}
 
 a {
     text-decoration: none;
@@ -362,6 +341,14 @@ a {
 .navbar {
     background-color: transparent;
     margin-bottom: 8%;
+}
+
+.navbar-end {
+    background: hsl( var(--clr-white) / .1);
+    backdrop-filter: blur(1rem);
+    height: 80%;
+    padding-left: 8%;
+    width: fit-content;
 }
 
 .main-flex {
@@ -375,14 +362,61 @@ a {
 }
 
 .navbar-burger {
-    margin-left: auto;
-  }
-
-@media (max-width: 768px) {
-  .navbar-burger {
-    position: absolute;
-    top: 2.5rem;
-    right: 1.5rem; /* Positions it on the top right */
-  }
+    display: none;
 }
+
+.navbar-item {
+    transition: all 500ms ease-in-out;
+}
+
+.navbar-item:hover {
+    background-color: hsl( var(--clr-white) / .2);
+    transform: translateY(-3px);
+    background-color: transparent;
+}
+
+
+@media (max-width: 45rem) {
+    .navbar-menu {
+        --underline-gap: 2rem;
+        position: fixed;
+        z-index: 1000;
+        inset: 0 0 0 45%;
+        list-style: none;
+        padding: min(20rem, 15vh) 2rem;
+        margin: 0;
+        flex-direction: column;
+        background: hsl( var(--clr-white) / .1);
+        backdrop-filter: blur(1rem);
+    }
+
+    .navbar-burger {
+        display: block;
+        position: relative;
+        right: 2%;
+        z-index: 1001;
+        margin-left: auto;
+      }
+
+    .navbar-item {
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        transition: all 300ms ease-in-out;
+    }
+
+    .navbar-item:hover {
+        scale: 1.2;
+    }
+
+    .navbar-item span {
+        margin-right: 1rem;
+    }
+
+    .navbar-item .number {
+        font-weight: 900;
+    }
+} 
+
+
+
 
