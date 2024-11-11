@@ -117,13 +117,11 @@ input:focus:invalid {
 /*       UTILITY CLASSES       */
 /*-----------------------------*/
 
-.flex {
-    display: flex;
+.is-flex {
     gap: var(--gap, 1rem);
 }
 
-.grid {
-    display: grid;
+.is-grid {
     gap: var(--gap, 1rem);
 }
 
@@ -329,4 +327,13 @@ body {
     .home {
         background-image: url(../home/background-home-desktop.jpg);
     }
+}
+
+
+/*--------------------------------- 
+             NAVBAR MENU 
+---------------------------------*/
+
+.navbar {
+    background-color: transparent;
 }
