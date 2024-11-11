@@ -28,22 +28,27 @@
 </head>
 <body class="home">
 
-    <nav class="navbar is-flex p-3">
+    <nav class="navbar p-3">
         <div class="navbar-brand p-5">
-          <img class="logo" src="./assets/shared/logo.svg" alt="space tourism logo" class="logo">
+            <img class="logo" src="./assets/shared/logo.svg" alt="space tourism logo">
         </div>
-        <div class="navbar-menu is-flex is-justify-content-space-between is-align-items-center">
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="navbar-burger">
+            <div class="navbar-burger">
+                <img src="./assets/shared/icon-hamburger.svg" alt="Icon nav burger">
+            </div>
+        </label>
+        <!-- Ensure this is directly after the input for the sibling relationship -->
+        <div class="navbar-menu" id="navMenu">
             <div class="navbar-end">
                 <a class="navbar-item fs-200 ff-sans-cond uppercase text-white letter-spacing-2" href="index.html"><span class="number">00</span>Home</a>
-                <a class="navbar-item fs-200 ff-sans-cond uppercase text-white letter-spacing-2" href="destination.html"><span class="number" >01</span>Destination</a>
-                <a class="navbar-item fs-200 ff-sans-cond uppercase text-white letter-spacing-2" href="crew.html"><span class="number" >02</span>Crew</a>
-                <a class="navbar-item fs-200 ff-sans-cond uppercase text-white letter-spacing-2" href="technology.html"><span class="number" >03</span>Technology</a>
+                <a class="navbar-item fs-200 ff-sans-cond uppercase text-white letter-spacing-2" href="destination.html"><span class="number">01</span>Destination</a>
+                <a class="navbar-item fs-200 ff-sans-cond uppercase text-white letter-spacing-2" href="crew.html"><span class="number">02</span>Crew</a>
+                <a class="navbar-item fs-200 ff-sans-cond uppercase text-white letter-spacing-2" href="technology.html"><span class="number">03</span>Technology</a>
             </div>
         </div>
-        <div class="navbar-burger">
-            <img src="./assets/shared/icon-hamburger.svg" alt="Icon nav burger">
-        </div>
     </nav>
+    
 
     <div class="is-flex main-flex is-justify-content-space-around is-align-items-center">
         <div class="is-flex text-flex is-flex-direction-column has-text-centered">
