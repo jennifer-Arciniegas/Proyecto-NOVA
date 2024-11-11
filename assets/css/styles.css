@@ -363,6 +363,31 @@ body {
 }
 
 .navbar {
-    margin-bottom: 4%;
+    margin-bottom: 0;
+}
+
+.number {
+    font-weight: 900;
+}
+
+.destination-call {
+    font-family: 'Bellefair';
+    font-weight: 800;
+    margin-left: 8%;
+    margin-bottom: 5%;
+}
+
+.destination-call span {
+    margin-right: 1.5%;
+}
+
+.section-destination {
+    border: 1px solid white;
+    padding-left: 10%;
+    height: 35vw;
+}
+
+.planet-box {
+    width: 100%
 }
 
