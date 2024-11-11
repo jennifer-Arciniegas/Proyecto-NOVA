@@ -97,12 +97,12 @@ input:focus:invalid {
     --clr-white: 0 0% 100%;
 
     /* FONT-SIZES */
-    --fs-900: clamp(5rem, 8vw + 1rem, 9.375rem);
+    --fs-900: clamp(4rem, 8vw + 1rem, 9.375rem);
     --fs-800: 3.5rem;
     --fs-700: 1.5rem;
     --fs-600: 1rem;
-    --fs-500: 1.75rem;
-    --fs-400: 0.9375rem;
+    --fs-500: 1.2rem;
+    --fs-400: 0.93rem;
     --fs-300: 1rem;
     --fs-200: 0.875rem;
 
