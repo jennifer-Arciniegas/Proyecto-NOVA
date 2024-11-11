@@ -1,7 +1,6 @@
 # Proyecto-NOVA
 # Equipo:
- - Scrum Master:
-    -Jennifer Arciniegas.
+ - Scrum Master:Jennifer Arciniegas.
   - Equipo Scrum:
    - Anderson Galvis.
    - Juan Ramírez.
