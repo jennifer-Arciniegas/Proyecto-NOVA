@@ -218,3 +218,8 @@ body {
     background-color: #2a3d66;
     z-index: 1;
 }
+.tamanomon{
+    width: 60vw;
+    height: auto;
+    align-content: center;
+}
