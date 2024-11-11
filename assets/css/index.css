@@ -374,3 +374,15 @@ a {
     min-width: 650px;
 }
 
+.navbar-burger {
+    margin-left: auto;
+  }
+
+@media (max-width: 768px) {
+  .navbar-burger {
+    position: absolute;
+    top: 2.5rem;
+    right: 1.5rem; /* Positions it on the top right */
+  }
+}
+
