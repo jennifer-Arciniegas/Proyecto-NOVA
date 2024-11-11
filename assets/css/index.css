@@ -204,19 +204,20 @@ input:focus:invalid {
 
 .large-button {
     position: relative;
+    z-index: 1;
     display: inline-grid;
     place-items: center;
-    border-radius: 50%;
     padding: 0 2em;
-    aspect-ratio: 1 / 1;   /* width / height   ratio */
+    border-radius: 50%;
+    aspect-ratio: 1;
     text-decoration: none;
-    z-index: 1;
+    background-color: hsl( var(--clr-white));
 }
 
 .large-button::after {
     content: '';
     position: absolute;
-    background: hsl( var(--clr-white) / .15);
+    background: hsl( var(--clr-white) / .1);
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -291,6 +292,11 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: inherit
+}
+
 body {
     background-color: hsl(var(--clr-dark));
     min-height: 100vh;
@@ -299,3 +305,10 @@ body {
     font-size: var(--fs-400);
     color: hsl(var(--clr-white));
 }
+
+.home {
+    background-image: url(/assets/home/background-home-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
