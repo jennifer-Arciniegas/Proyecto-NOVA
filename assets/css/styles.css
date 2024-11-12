@@ -217,6 +217,14 @@ body {
     }
 }
 
+.lineamenu{
+    border: 1px solid lightgray;
+    width: 41.5vw;
+    height: 2px;
+    position: relative;
+    z-index: 5;
+}
+
 
 /*--------------------------------- 
              NAVBAR 
@@ -402,4 +410,22 @@ body {
     height: 10%;
     background: hsl( 0 0% 100% / .1);
     backdrop-filter: blur(1rem);
+}
+
+.planet {
+    transition: scale 600ms ease-in-out;
+}
+
+.planet:hover {
+    scale: 1.3;
+}
+
+
+/*------------------------------------*/
+/*            TECHNOLOGY             */
+/*------------------------------------*/
+
+
+.technology{
+    background-image: url(/assets/technology/background-technology-desktop.jpg);
 }
