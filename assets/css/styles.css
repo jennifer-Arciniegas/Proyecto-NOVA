@@ -421,12 +421,12 @@ body {
 }
 @media (max-width: 768px) {
 
-    /* Centrar el título en la parte superior */
+    /* Centrar el título */
     .destination-call {
         text-align: center;
         margin-left: 0;
         margin-bottom: 2rem;
-        font-size: var(--fs-600); /* Ajusta el tamaño según prefieras */
+        font-size: var(--fs-600); 
     }
 
     /* Centrar la imagen de la luna */
@@ -436,11 +436,10 @@ body {
         margin-bottom: 2rem;
     }
     .planet-box img {
-        max-width: 50%; /* Ajusta el tamaño máximo de la imagen según prefieras */
-        height: auto; /* Esto mantiene la proporción de la imagen */
+        max-width: 50%; 
+        height: auto; 
     }
     /* Centrar los enlaces de los planetas */
-  
 
     .planet {
         text-align: center;
@@ -457,12 +456,12 @@ body {
     }
 
     .container h1 {
-        font-size: var(--fs-800); /* Ajusta el tamaño según prefieras */
+        font-size: var(--fs-800); 
     }
 
     .container p,
     .dest-data {
-        font-size: var(--fs-600); /* Ajusta el tamaño según prefieras */
+        font-size: var(--fs-600); 
     }
 
     .section-destination {
