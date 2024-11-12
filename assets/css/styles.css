@@ -419,6 +419,60 @@ body {
 .planet:hover {
     scale: 1.3;
 }
+@media (max-width: 768px) {
+
+    /* Centrar el título en la parte superior */
+    .destination-call {
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 2rem;
+        font-size: var(--fs-600); /* Ajusta el tamaño según prefieras */
+    }
+
+    /* Centrar la imagen de la luna */
+    .planet-box {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .planet-box img {
+        max-width: 50%; /* Ajusta el tamaño máximo de la imagen según prefieras */
+        height: auto; /* Esto mantiene la proporción de la imagen */
+    }
+    /* Centrar los enlaces de los planetas */
+  
+
+    .planet {
+        text-align: center;
+        width: 100%;
+    }
+
+    /* Centrar el texto de descripción */
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+    .container h1 {
+        font-size: var(--fs-800); /* Ajusta el tamaño según prefieras */
+    }
+
+    .container p,
+    .dest-data {
+        font-size: var(--fs-600); /* Ajusta el tamaño según prefieras */
+    }
+
+    .section-destination {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        height: auto;
+    }
+}
+
 
 /*------------------------------------*/
 /*               CREW                 */
