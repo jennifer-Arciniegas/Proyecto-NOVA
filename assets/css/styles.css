@@ -515,4 +515,8 @@ body {
     background-position: center;
 }
 
+.section-destination{
+    min-height: 70vh;
+}
+
 

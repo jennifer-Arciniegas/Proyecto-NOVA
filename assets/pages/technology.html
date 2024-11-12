@@ -25,6 +25,47 @@
 
     <meta name="description" content="Nova is an enterprise aiming to become a leader in the space turism industry">
     <title>Destination</title>
+    
+    <style>
+        /* Estilos personalizados para hacer la página responsive */
+        @media screen and (max-width: 768px) {
+            .section-destination{
+                min-height: 180vh;
+            }
+            .column.column.is-narrow {
+                width: 100%;
+                flex-direction: row !important;
+                justify-content: center;
+                order: 2;
+                margin-bottom: -85vh;
+            }
+            .column.is-narrow .button {
+                margin: 0 0.5rem;
+        
+            }
+            .column.is-one-third {
+                width: 100%;
+                text-align: center;
+                order: 3;
+            }
+            .column.is-two-thirds {
+                width: 100%;
+                order: 1;
+                margin-bottom: -30vh;
+            }
+            .planet-image {
+                width: 100%;
+                height: auto;
+            }
+            .destination-call {
+                text-align: center;
+                margin-top: 2rem;
+            }
+
+            
+        }
+    </style>
+
 </head>
 <body>
     <nav class="navbar navbar-destination p-3">
@@ -52,9 +93,9 @@
         <div class="container columns">
             
             <div class="column is-narrow is-flex is-flex-direction-column is-align-items-start mt-6 ">
-                <a href=""><button class="button is-rounded is-large is-white">1</button></a>
-                <a href=""><button class="button is-rounded is-large is-white">2</button></a>
-                <a href=""><button class="button is-rounded is-large is-white">3</button></a>
+                <a href=""><button class="button is-rounded is-large is-white" id="b-tec">1</button></a>
+                <a href=""><button class="button is-rounded is-large is-white" id="b-tec">2</button></a>
+                <a href=""><button class="button is-rounded is-large is-white" id="b-tec">3</button></a>
             </div>
             
             
