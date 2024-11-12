@@ -395,3 +395,11 @@ body {
 .dest-data {
     font-weight: 900;
 }
+
+.planets {
+    margin-top: 5%;
+    width: 65%;
+    height: 10%;
+    background: hsl( 0 0% 100% / .1);
+    backdrop-filter: blur(1rem);
+}
