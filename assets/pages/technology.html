@@ -15,32 +15,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
     <!-- Website Icon -->
-    <link rel="icon" href="./assets/icon.png" type="image/x-icon">
+    <link rel="icon" href="../icon.png" type="image/x-icon">
 
     <!-- Bulma -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/assets/css/styles.css" type="text/css">
+    <link rel="stylesheet" href="../css/styles.css" type="text/css">
 
-  <meta name="description" content="Nova is an enterprise aiming to become a leader in the space turism industry">
-    <title>Nova</title>
+   <meta name="description" content="Nova is an enterprise aiming to become a leader in the space turism industry">
+    <title>Destination</title>
 </head>
-<body class="technology">
-
-    <nav class="navbar p-3">
+<body>
+    <nav class="navbar navbar-destination p-3">
         <div class="navbar-brand p-5">
-            <img class="logo" src="/assets/shared/logo.svg" alt="space tourism logo">
+            <img class="logo" src="../shared/logo.svg" alt="space tourism logo">
         </div>
-        
         <input type="checkbox" id="menu-toggle">
         <label for="menu-toggle" class="navbar-burger">
             <div class="navbar-burger">
-                <img src="/assets/shared/icon-hamburger.svg" alt="Icon nav burger">
+                <img src="../shared/icon-hamburger.svg" alt="Icon nav burger">
             </div>
         </label>
-        <hr class="lineamenu ml-5 is-hidden-mobile is-hidden-tablet-only">
-        <!-- Ensure this is directly after the input for the sibling relationship -->
+        <hr class="lineamenu mt-6 is-hidden-mobile is-hidden-tablet-only">
         <div class="navbar-menu" id="navMenu">
             <div class="navbar-end">
                 <a class="navbar-item fs-200 ff-sans-cond uppercase text-white letter-spacing-2" href="../../index.html"><span class="number">00</span>Home</a>
@@ -50,12 +47,24 @@
             </div>
         </div>
     </nav>
-    
-    <section>
-      <div class="titul3 ">
-        <h2 class="fs-200 ff-sans-cond uppercase text-white letter-spacing-2"> <span class="number">03</span>  SPACE LAUNCH 101</h2>
-      </div>
+    <h2 class="destination-call fs-500 ff-sans-cond uppercase text-white letter-spacing-3"><span class="number">03</span>SPACE LAUNCH 101</h2>
+    <section class="section-destination is-flex ">
+        <div class="planet-box">
+            <img src="../destination/image-moon.png" alt="The moon">
+        </div>
+        <div class="container is-flex is-flex-direction-column">
+            <h1 class="fs-900 ff-serif text-white is-block uppercase">Moon</h1> 
+            <p class="text-white ff-serif fs-500">See our planet as you've never seen it before. 
+            A perfect relaxing trip away to help regain perspective and come back refreshed. 
+            While you're there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p> 
+            <h3 class="dest-data fs-500 ff-serif text-white uppercase">Avg. distance: 384,400 km</h3>
+            <h3 class="dest-data fs-500 ff-serif text-white uppercase">Est. travel time: 3 days</h3>
+            <div class="planets is-flex is-justify-content-space-around is-align-items-center">
+                <div class="planet moon"><a class="ff-serif uppercase" href="../pages/destination.html">Moon</a></div>
+                <div class="planet mars"><a class="ff-serif uppercase" href="../pages/mars.html">Mars</a></div>
+                <div class="planet europa"><a class="ff-serif uppercase" href="../pages/europa.html">Europa</a></div>
+                <div class="planet titan"><a class="ff-serif uppercase" href="../pages/titan.html">Titan</a></div>
+            </div>
+        </div>
     </section>
-    
 </body>
-</html>

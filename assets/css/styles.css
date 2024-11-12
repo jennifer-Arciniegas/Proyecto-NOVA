@@ -456,6 +456,9 @@ body {
 /*------------------------------------*/
 
 
-.technology{
-    background-image: url(/assets/technology/background-technology-desktop.jpg);
+body {
+    background-image: url('../technology/background-technology-desktop.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
