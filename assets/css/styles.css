@@ -198,7 +198,7 @@ body {
     background-image: url(../home/background-home-desktop.jpg);
     background-repeat: no-repeat;
     background-position: center;
-  }
+}
 
 .home {
     background-image: url(../home/background-home-mobile.jpg);
@@ -461,4 +461,5 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+
 
